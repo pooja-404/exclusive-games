@@ -9,8 +9,8 @@ function Jackpot() {
     <div className='relative z-10'>
       <div className='max-w-[1140px] mx-auto px-3 lg:pt-24 '>
         <div className='flex flex-row flex-wrap -mx-3'>
-          <div className='lg:w-1/2 w-full px-3' data-aos="fade-right">
-            <img src={jackpot} alt="logo" className='w-full h-full rounded-[16px]' />
+          <div className='lg:w-1/2 w-full px-3 ' data-aos="fade-right">
+            <img src={jackpot} alt="logo" className='w-full max-lg:-w-[97%] h-full rounded-[16px]' />
           </div>
           <div className='lg:w-1/2 w-full px-3 flex justify-center flex-col pt-7 lg:pt-0' data-aos="fade-left">
             <h2 className='font-Anton font-normal lg:text-5xl md:text-[40px] sm:text-[38px] text-[30px] text-[#FFFF] leading-[57px] max-lg:text-center'>Potenciando sus elecciones</h2>

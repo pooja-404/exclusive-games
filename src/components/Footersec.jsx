@@ -9,7 +9,7 @@ const Footersec = () => {
     const date = new Date();
     const year = date.getFullYear();
     return (
-        <div className="bg-[#000000] md:pb-5 pb-8 pt-10 relative z-10 ">
+        <div className="bg-[#000000] md:pb-5 pb-8 pt-10 relative z-10 overflow-hidden ">
             <div className="max-w-[1140px] px-3 mx-auto">
                 <div className="flex flex-row flex-wrap -mx-3 md:pb-7">
                     <div className="xl:w-5/12 px-3 w-full pt-7" data-aos="fade-down-right">
