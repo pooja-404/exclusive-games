@@ -39,7 +39,7 @@ function Luxury() {
                             </div>
                         </div>
                         <div className='flex justify-center' data-aos="zoom-out-up">
-                            <button className='bg-gradient  hover:shadow-[0_0_14px_9px_rgba(014,218,09,0.50)] duration-500 transition-all hover:scale-125 text-[#00141B]  font-Inter font-bold text-base leading-[25px] p-[13px_46px_13px_46px] rounded-[41px] mt-3 relative after:absolute after:content-[url(./assets/images/gline.webp)] after:top-[31px] after:left-[-6px]'>Comprar ahora</button>
+                            <button className='bg-gradient hover:text-white  hover:shadow-[0_0_14px_9px_rgba(014,218,09,0.50)] duration-500 transition-all  text-[#00141B]  font-Inter font-bold text-base leading-[25px] p-[13px_46px_13px_46px] rounded-[41px] mt-3 relative after:absolute after:content-[url(./assets/images/gline.webp)] after:top-[31px] after:left-[-6px]'>Comprar ahora</button>
                         </div>
                     </div>
                     <img src={gplay} alt="double" className='absolute lg:left-[19%] lg:top-[17%] left-[2%] top-[2%] max-lg:w-[20%]'/>

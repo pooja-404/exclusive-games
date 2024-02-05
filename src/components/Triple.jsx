@@ -1,8 +1,8 @@
 import React from 'react'
-import imgg from '../assets/images/777.png'
-import bulb from '../assets/images/gbulb.png'
-import starts from '../assets/images/stars.png'
-import ruppee from '../assets/images/rupees.png'
+import imgg from '../assets/images/777.webp'
+import bulb from '../assets/images/gbulb.webp'
+import starts from '../assets/images/stars.webp'
+import ruppee from '../assets/images/rupees.webp'
 import norellipse from '../assets/images/nosellipse.webp'
 import norellipse2 from '../assets/images/nosellipse2.webp'
 
@@ -18,19 +18,19 @@ const Triple = () => {
                         </div>
                         <div className='lg:w-1/2 w-full  px-3 max-lg:flex justify-center items-center flex-col pt-9 lg:pt-0  '>
                             <h2 className='lg:text-5xl md:text-[40px] text-[38px] font-normal font-Anton text-white pb-5 max-lg:text-center' data-aos="fade-left">Más razones para elegirnos</h2>
-                            <div className=' mt-9 bg-people p-[1px] pl-[1px] duration-500  hover:!shadow-[0px5px_10px#7AF57A] w-full rounded-[16px] max-w-[374px]' data-aos="fade-left">
+                            <div className=' mt-9 bg-people p-[1px] pl-[1px] !duration-500  hover:shadow-[0_0_14px_9px_rgba(014,218,09,0.50)] w-full rounded-[16px] max-w-[374px]' data-aos="fade-left">
                                 <div className=" pl-[15px] sm:pl-[56px] pr-[20px] bg-[#051D23] py-6 flex items-center gap-[37px] rounded-[16px]">
                                     <img className='w-[68px] h-[68px]' src={bulb} alt="bulb" />
                                     <p className='max-w-[227px] font-Inter font-medium leading-[25px] text-[14px] sm:text-[16px] text-white'><span className=' font-Anton text-[25px] sm:text-[32px] leading-[41px] font-normal'>200</span> <br /> Páginas creadas</p>
                                 </div>
                             </div>
-                            <div className=' mt-6 bg-people p-[1px] pl-[1px] duration-500  hover:!shadow-[0px5px_10px#7AF57A] w-full rounded-[16px] max-w-[374px]' data-aos="fade-left">
+                            <div className=' mt-6 bg-people p-[1px] pl-[1px] !duration-500  hover:shadow-[0_0_14px_9px_rgba(014,218,09,0.50)] w-full rounded-[16px] max-w-[374px]' data-aos="fade-left">
                                 <div className=" pl-[15px] sm:pl-[56px] pr-[20px] bg-[#051D23] py-6 flex items-center gap-[37px] rounded-[16px]">
                                     <img className='w-[68px] h-[68px]' src={starts} alt="bulb" />
                                     <p className='max-w-[227px] font-Inter font-medium leading-[25px] text-[14px] sm:text-[16px] text-white'><span className=' font-Anton text-[25px] sm:text-[32px] leading-[41px] font-normal'>98% </span><br />Clientes Satisfechas</p>
                                 </div>
                             </div>
-                            <div className=' mt-6 bg-people p-[1px] pl-[1px] duration-500  hover:!shadow-[0px5px_10px#7AF57A] w-full rounded-[16px] max-w-[374px]' data-aos="fade-left">
+                            <div className=' mt-6 bg-people p-[1px] pl-[1px] !duration-500  hover:shadow-[0_0_14px_9px_rgba(014,218,09,0.50)] w-full rounded-[16px] max-w-[374px]' data-aos="fade-left">
                                 <div className=" pl-[15px] sm:pl-[56px] pr-[20px] bg-[#051D23] py-6 flex items-center gap-[37px] rounded-[16px]">
                                     <img className='w-[68px] h-[68px]' src={ruppee} alt="bulb" />
                                     <p className='max-w-[227px] font-Inter font-medium leading-[25px] text-[14px] sm:text-[16px] text-white'><span className=' font-Anton text-[25px] sm:text-[32px] leading-[41px] font-normal'>200</span> <br />Divisas Disponibles</p>

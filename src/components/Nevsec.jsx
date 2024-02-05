@@ -40,11 +40,11 @@ const Nevsec = () => {
                             </a>
                         </li>
                         <li className='lg:hidden block '>
-                            <a href="" className='p-[13px_46px_13px_46px] text-base font-bold font-Inter text-[#FFFFFF] border-solid border-[1px] rounded-[41px] gap-[10px]  relative after:absolute after:content-[url(./assets/images/wline.webp)] after:top-[25px] after:left-[-6px] '>Acceso</a>
+                            <a href="" className='duration-500 p-[13px_46px_13px_46px] text-base font-bold font-Inter text-[#FFFFFF] border-solid border-[1px] rounded-[41px] gap-[10px]  relative after:absolute after:content-[url(./assets/images/wline.webp)] after:top-[25px] after:left-[-6px] '>Acceso</a>
                         </li>
                     </ul>
                     <li className='lg:block hidden '>
-                        <a href="" className='p-[13px_46px_13px_46px] text-base font-bold font-Inter hover:shadow-[0_0_14px_9px_rgba(014,218,09,0.50)] group-hover:duration-500  hover:bg-gradient hover:border-[1px]  hover:border-[transparent]  text-[#FFFFFF] border-solid border-[1px] rounded-[41px] gap-[10px]  relative after:absolute after:content-[url(./assets/images/wline.webp)] after:top-[26px] after:left-[-6px]  '>Acceso</a>
+                        <a href="" className='duration-500 p-[13px_46px_13px_46px] text-base font-bold font-Inter hover:shadow-[0_0_14px_9px_rgba(014,218,09,0.50)] group-hover:duration-500  hover:bg-gradient hover:border-[1px]  hover:border-[transparent]  text-[#FFFFFF] border-solid border-[1px] rounded-[41px] gap-[10px]  relative after:absolute after:content-[url(./assets/images/wline.webp)] after:top-[26px] after:left-[-6px]  '>Acceso</a>
                     </li>
                     <label className=" lg:hidden" onClick={nav}>
                         {show ? (

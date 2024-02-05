@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import preloder2 from '../assets/images/logoo.png'
+import preloder2 from '../assets/images/logoo.webp'
 
 const Preloder = () => {
     const [loder, setloader] = useState(true);
