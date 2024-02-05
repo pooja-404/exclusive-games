@@ -38,7 +38,7 @@ const Slots = () => {
 
     const card = cards.map((cards, i) => (<div key={i} className="lg:w-1/3 md:w-2/4  w-full px-3 flex justify-center group duration-500 mb-6">
         <div className='hover:bg-slot p-[1px] rounded-[8px] w-full'>
-            <div className="lg:max-w-[364px] rounded-lg bg-[url(url(./assets/images/gline.webp)] w-full h-[265px] overflow-hidden relative bg-no-repeat bg-center bg-cover  bg-gradient p-[1px] " data-aos={`${cards.animation}`} data-aos-duration="800" data-aos-offset="500"
+            <div className="lg:max-w-[364px] rounded-lg bg-[url(url(./assets/images/gline.webp)] w-full h-[265px] overflow-hidden relative bg-no-repeat bg-center bg-cover  bg-gradient p-[1px] " data-aos={`${cards.animation}`}  data-aos-offset="500"
                 data-aos-easing="ease-in-sine"  style={{ backgroundImage: `url(${cards.bg})` }} >
                 <div className="absolute w-full  bg-[#000000B2] hover:shadow-[7px_9px_15px_0px_#00000033] lg:max-w-[364px] h-[265px] flex justify-center top-[-100%] group-hover:top-0 left-0 items-center duration-500">
                     <button className="text-white hover:shadow-[0_0_14px_9px_rgba(014,218,09,0.50)] group-hover:duration-500  hover:bg-gradient hover:border-[1px]  hover:border-[transparent] opacity-100 relative z-[2] border border-white rounded-full py-[13px] px-[46px] border-solid after:absolute after:left-[-3%]  after:bottom-[-30%] font-Inter font-bold text-base leading-[25.6px] after:content-[url(./assets/images/wline.webp)] hover:scale-75">Jugar</button>
