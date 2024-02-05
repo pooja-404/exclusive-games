@@ -14,7 +14,7 @@ function Platinum() {
                         <div className='lg:w-5/12 w-full px-3 max-w-[364px] max-lg:flex max-lg:justify-center max-lg:flex-col'>
                             <h4 className='text-white text-[32px] font-Anton font-normal leading-[41px] max-lg:text-center max-md:pt-5'data-aos="fade-left">Platinum</h4>
                             <p className='font-Inter font-medium text-[16px] leading-[25px] text-white pt-4 opacity-80 max-lg:text-center'data-aos="fade-left">Diseño totalmente personalizado. Contáctanos para un presupuesto.</p>
-                            <h2 className='text-white font-Anton font-normal text-[48px] leading-[57px] pt-8 pb-4 max-lg:text-center 'data-aos="fade-left">Consultar precio</h2>
+                            <h2 className='text-white font-Anton font-normal lg:text-[48px] md:text-4xl text-3xl leading-[57px] pt-8 pb-4 max-lg:text-center 'data-aos="fade-left">Consultar precio</h2>
                             <div className="flex items-start gap-2 max-lg:text-center max-lg:justify-center" data-aos="fade-left">
                                 <img src={double} alt="double" />
                                 <p className=' font-Inter font-medium text-[16px] leading-[25px] text-white text-center opacity-80'>Personalizable</p>

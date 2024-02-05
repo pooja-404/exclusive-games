@@ -3,7 +3,7 @@ import React from 'react'
 function Headersec() {
     return (
    
-            <div className='max-w-[1140px] mx-auto px-3 grow  flex justify-center flex-col items-center'>
+            <div className='max-w-[1140px] mx-auto px-3 grow  flex justify-center flex-col items-center '>
                 <h2 className='font-Anton sm:text-[65px] text-[50px] md:text-[72px] font-normal text-[#ffffff] mx-auto  lg:max-w-[505px] md:leading-[86px] text-center' data-aos="zoom-in" data-aos-delay="2000">Exclusive Games. Pasión por ganar</h2>
                 <p className='font-Inter text-base font-medium text-[#ccd0d1] leading-[25px] lg:max-w-[727px]  text-center mx-auto pt-5' data-aos="zoom-in" data-aos-delay="2000">En Exclusive Games somos un equipo apasionado de personas dedicados al desarrollo de multiplataformas para juegos de azar. A lo largo de nuestra vida consumimos todo tipo de juegos hasta que un día decidimos crear los propios.</p>
                 <div className='flex justify-center'>

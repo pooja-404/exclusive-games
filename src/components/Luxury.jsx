@@ -8,12 +8,12 @@ import dise from '../assets/images/dise.webp'
 function Luxury() {
     return (
         <div>
-            <div className='max-w-[1140px] mx-auto px-3 pb-16 '>
+            <div className='max-w-[1140px] mx-auto px-3 md:pb-16 py-7 '>
                 <div className="w-full px-5 border-[0.5px] bg-[url(./assets/images/luxurybg.png)] bg-100 bg-no-repeat h-full border-[#849294] bg-[#051D23] rounded-[16px] py-[45px] flex items-center flex-col relative">
                     <div className='max-w-[419px] z-10'>
                         <h4 className='text-white text-[32px] font-Anton font-normal leading-[41px] text-center'data-aos="zoom-out-down">Luxury</h4>
                         <p className='font-Inter font-medium text-[16px] leading-[25px] text-white pt-4 text-center !opacity-80'data-aos="zoom-out-down">lleva tu experiencia de juego al siguiente nivel. Con todas las características de la versión Silver y la potencia adicional de la tecnología React .</p>
-                        <h2 className='text-white font-Anton font-normal text-[48px] leading-[57px] text-center pt-8 pb-4'data-aos="zoom-out-down">$9000</h2>
+                        <h2 className='text-white font-Anton font-normal lg:text-[48px] md:text-4xl text-3xl leading-[57px] text-center pt-8 pb-4'data-aos="zoom-out-down">$9000</h2>
                         <div className="flex items-start gap-2"data-aos="zoom-out-up">
                             <img src={double} alt="double" />
                             <p className=' font-Inter font-medium text-[16px] leading-[25px] text-white  text-center opacity-80'>Disponibles Payku, Pix, Depósitos en Euros, Criptomonedas, Cargas manuales</p>

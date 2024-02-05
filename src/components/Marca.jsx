@@ -9,7 +9,7 @@ import Slots from './Slots'
 
 const Marca = () => {
     return (
-        <div className="lg:bg-[url(./assets/images/whitebg1.png)] bg-size bg-center bg-no-repeat lg:py-[243px] sm:py-20 py-16 ">
+        <div className="lg:bg-[url(./assets/images/whitebg1.png)] bg-size bg-center bg-no-repeat lg:py-[243px] sm:py-20 py-10 ">
             <div className='max-lg:bg-white '>
                 <div className="max-w-[1140px] px-3 mx-auto">
                     <h2 className=" font-Anton text-[#00141B] lg:text-5xl md:text-[40px] text-[38px] text-center pt-5   md:mb-[60px]">
@@ -32,7 +32,7 @@ const Marca = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="lg:w-1/3 sm:w-1/2 w-full px-3 flex justify-center pt-12 sm:pt-0" data-aos="zoom-out">
+                        <div className="lg:w-1/3 sm:w-1/2 w-full px-3 flex justify-center pt-7 sm:pt-0" data-aos="zoom-out">
                             <div className="max-w-[235px] flex flex-col items-center">
                                 <div className='w-[100px] h-[100px] rounded-[73px] bg-[#7AF57A14] flex justify-center items-center'>
                                     <img src={img2} alt="img1" />
@@ -41,7 +41,7 @@ const Marca = () => {
                                 <p className="text-center font-Inter text-base  font-medium leading-[25.6px] text-[#00141B]">Somos creadores de cambios que exploran nuevas formas de entretenimiento.</p>
                             </div>
                         </div>
-                        <div className="lg:w-1/3 sm:w-1/2 w-full px-3 flex lg:justify-end pt-12 lg:pt-0  justify-center" data-aos="zoom-in-right">
+                        <div className="lg:w-1/3 sm:w-1/2 w-full px-3 flex lg:justify-end pt-7 lg:pt-0  justify-center" data-aos="zoom-in-right">
                             <div className="max-w-[244px] flex flex-col items-center">
                                 <div className='w-[100px] h-[100px] rounded-[73px] bg-[#7AF57A14] flex justify-center items-center'>
                                     <img src={img3} alt="img1" />

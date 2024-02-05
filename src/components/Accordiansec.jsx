@@ -144,7 +144,7 @@ const Accordiansec = () => {
                     </AccordionBody>
                 </Accordion>
                 <Accordion
-                    className=" border-[#80898D] border md:mb-8 mb-5 rounded-[10px] py-4 px-5 " data-aos="fade-up-left"
+                    className=" border-[#80898D] border md:mb-8 md:mb-5 rounded-[10px] py-4 px-5 " data-aos="fade-up-left"
                     open={open === 6}
                     icon={<Icon id={6} open={open} />}
                 >

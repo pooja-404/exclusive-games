@@ -4,10 +4,10 @@ import sellipse from '../assets/images/sellipse.webp'
 const Silver = () => {
     return (
         <>
-            <div className='max-w-[1140px] px-3 mx-auto lg:pt-24 pb-16'>
+            <div className='max-w-[1140px] px-3 mx-auto lg:pt-24 md:pb-16 md:pt-10 '>
                 <h2 className='lg:text-5xl md:text-[40px] text-[38px] font-normal font-Anton text-white text-center'>Nuestras ofertas</h2>
                 <p className='font-Inter font-medium text-[16px] text-white text-center pt-5'>Te ofrecemos las mejores experiencias de juegos para tus clientes.</p>
-                <div className='w-full mt-14 bg-[#051D23] border-[0.5px] border-solid border-[#849294] rounded-[16px] p-[57px_40px_32px_46px]'>
+                <div className='w-full lg:mt-14 mt-7 bg-[#051D23] border-[0.5px] border-solid border-[#849294] rounded-[16px] p-[57px_40px_32px_46px]'>
                     <div className='flex flex-wrap flex-row -mx-3'>
                         <div className='lg:w-7/12 w-full px-3 pt-5 relative z-10' data-aos="fade-left">
                             <img src={cards} alt="cards" className='w-full' />
@@ -16,7 +16,7 @@ const Silver = () => {
                         <div className='lg:w-5/12 w-full px-3'>
                             <h2 className='text-[32px] font-normal font-Anton text-white max-lg:text-center pt-5 lg:pt-0' data-aos="fade-right">Silver</h2>
                             <p className='text-[16px] font-medium text-[#CDD2D3] font-Inter pt-3 max-lg:text-center ' data-aos="fade-right">Diseño predeterminado, atractivo y fácil de navegar, tecnología HTLM5.</p>
-                            <h2 className='text-[48px] font-normal text-white font-Anton pt-5 max-lg:text-center' data-aos="fade-right">$5000</h2>
+                            <h2 className='lg:text-[48px] md:text-4xl text-3xl font-normal text-white font-Anton pt-5 max-lg:text-center' data-aos="fade-right">$5000</h2>
                             <div className='flex gap-2 pt-4' data-aos="fade-right">
                                 <span>
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

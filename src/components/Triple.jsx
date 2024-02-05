@@ -11,29 +11,29 @@ const Triple = () => {
     return (
         <>
             <div className='bg-[#00141b] pt-9 relative z-10'>
-                <div className='max-w-[1140px] px-3 mx-auto py-12'>
+                <div className='max-w-[1140px] px-3 mx-auto max-md:pb-10 lg:py-12'>
                     <div className='flex flex-wrap flex-row -mx-3 justify-center'>
                         <div className='lg:w-1/2 w-full px-3' data-aos="fade-right">
                             <img src={imgg} alt="777" className='rounded-[16px] mt-2 w-full  h-full lg:w-[96%]' />
                         </div>
                         <div className='lg:w-1/2 w-full  px-3 max-lg:flex justify-center items-center flex-col pt-9 lg:pt-0  '>
                             <h2 className='lg:text-5xl md:text-[40px] text-[38px] font-normal font-Anton text-white pb-5 max-lg:text-center' data-aos="fade-left">Más razones para elegirnos</h2>
-                            <div className=' mt-9 bg-people p-[1px] pl-[1px] duration-500 hover:shadow-[0px5px_10px#7AF57A] w-full rounded-[16px] max-w-[374px]' data-aos="fade-left">
+                            <div className=' mt-9 bg-people p-[1px] pl-[1px] duration-500  hover:!shadow-[0px5px_10px#7AF57A] w-full rounded-[16px] max-w-[374px]' data-aos="fade-left">
                                 <div className=" pl-[15px] sm:pl-[56px] pr-[20px] bg-[#051D23] py-6 flex items-center gap-[37px] rounded-[16px]">
                                     <img className='w-[68px] h-[68px]' src={bulb} alt="bulb" />
                                     <p className='max-w-[227px] font-Inter font-medium leading-[25px] text-[14px] sm:text-[16px] text-white'><span className=' font-Anton text-[25px] sm:text-[32px] leading-[41px] font-normal'>200</span> <br /> Páginas creadas</p>
                                 </div>
                             </div>
-                            <div className=' mt-6 bg-people p-[1px] pl-[1px] duration-500 hover:shadow-[0px5px_10px#7AF57A] w-full rounded-[16px] max-w-[374px]' data-aos="fade-left">
+                            <div className=' mt-6 bg-people p-[1px] pl-[1px] duration-500  hover:!shadow-[0px5px_10px#7AF57A] w-full rounded-[16px] max-w-[374px]' data-aos="fade-left">
                                 <div className=" pl-[15px] sm:pl-[56px] pr-[20px] bg-[#051D23] py-6 flex items-center gap-[37px] rounded-[16px]">
                                     <img className='w-[68px] h-[68px]' src={starts} alt="bulb" />
-                                    <p className='max-w-[227px] font-Inter font-medium leading-[25px] text-[14px] sm:text-[16px] text-white'><span className=' font-Anton text-[25px] sm:text-[32px] leading-[41px] font-normal'>200</span> <br /> Páginas creadas</p>
+                                    <p className='max-w-[227px] font-Inter font-medium leading-[25px] text-[14px] sm:text-[16px] text-white'><span className=' font-Anton text-[25px] sm:text-[32px] leading-[41px] font-normal'>98% </span><br />Clientes Satisfechas</p>
                                 </div>
                             </div>
-                            <div className=' mt-6 bg-people p-[1px] pl-[1px] duration-500 hover:shadow-[0px5px_10px#7AF57A] w-full rounded-[16px] max-w-[374px]' data-aos="fade-left">
+                            <div className=' mt-6 bg-people p-[1px] pl-[1px] duration-500  hover:!shadow-[0px5px_10px#7AF57A] w-full rounded-[16px] max-w-[374px]' data-aos="fade-left">
                                 <div className=" pl-[15px] sm:pl-[56px] pr-[20px] bg-[#051D23] py-6 flex items-center gap-[37px] rounded-[16px]">
                                     <img className='w-[68px] h-[68px]' src={ruppee} alt="bulb" />
-                                    <p className='max-w-[227px] font-Inter font-medium leading-[25px] text-[14px] sm:text-[16px] text-white'><span className=' font-Anton text-[25px] sm:text-[32px] leading-[41px] font-normal'>200</span> <br /> Páginas creadas</p>
+                                    <p className='max-w-[227px] font-Inter font-medium leading-[25px] text-[14px] sm:text-[16px] text-white'><span className=' font-Anton text-[25px] sm:text-[32px] leading-[41px] font-normal'>200</span> <br />Divisas Disponibles</p>
                                 </div>
                             </div>
                         </div>
