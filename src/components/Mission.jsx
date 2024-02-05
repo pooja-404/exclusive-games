@@ -15,13 +15,13 @@ const Mission = () => {
                             <img src={poker} alt="poker" className='rounded-[16px] w-[93%]' />
                             <h2 className='text-white lg:text-5xl md:text-[40px] text-[38px] font-normal font-Anton pt-8'>Nuestra Visión</h2>
                             <p className='font-Inter font-medium text-[16px] text-[#ccd0d1] max-w-[444px] text-center md:text-start'>Nuestra visión es ser líderes indiscutibles en la industria de los juegos de azar y llevar nuestra pasión por el entretenimiento más allá de las fronteras. Imagina un mundo donde la emoción y la diversión no tengan límites, y ese es el mundo que queremos crear contigo.</p>
-                            <p className='font-Inter text-[16px] font-bold text-[#7AF57A] pt-5'>Aprende más {"-->"}</p>
+                            <p className='font-Inter text-[16px] font-bold text-[#7AF57A] pt-5 cursor-pointer'>Aprende más {"-->"}</p>
                         </div>
                         <div className='md:w-1/2 w-full px-3 flex items-center md:items-start justify-center md:justify-start flex-col' data-aos="fade-left">
                             <img className='mt-16 block md:hidden rounded-[16px] w-[93%] ' src={aviator} alt="aviator"  />
                             <h2 className='text-white lg:text-5xl md:text-[40px] text-[38px] font-normal font-Anton pt-8 md:pt-0 '>Nuestra Misión</h2>
                             <p className='font-Inter font-medium text-[16px] text-[#ccd0d1] max-w-[444px] pt-2 text-center md:text-start'>Nuestra misión es simple pero poderosa: proporcionarte la más amplia gama de soluciones de entretenimiento de alta calidad y rentabilidad. Estamos comprometidos a elevar tus expectativas y brindarte experiencias inigualables.</p>
-                            <p className='font-Inter text-[16px] font-bold text-[#7AF57A] pt-5'>Aprende más {"-->"}</p>
+                            <p className='font-Inter text-[16px] font-bold text-[#7AF57A] pt-5 cursor-pointer'>Aprende más {"-->"}</p>
                             <img className='mt-16 hidden md:block rounded-[16px] w-[93%] ' src={aviator} alt="aviator"  />
                         </div>
                     </div>

@@ -2,7 +2,6 @@ import React from 'react'
 import logo from '../assets/images/logo.webp'
 import { useState } from 'react';
 
-
 const Nevsec = () => {
     const [show, setshow] = useState(true);
     function nav() {

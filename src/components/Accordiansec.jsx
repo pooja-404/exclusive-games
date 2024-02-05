@@ -1,5 +1,5 @@
 import React from "react";
- import accorllip  from '../assets/images/aellipse.webp'
+import accorllip from '../assets/images/aellipse.webp'
 
 import {
     Accordion,
@@ -22,8 +22,8 @@ function Icon({ id, open }) {
                 <path
                     d="M1.69629 1H19.6963"
                     stroke="#fff"
-                    stroke-width="2"
-                    stroke-linecap="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
                 />
             </svg>
             <svg
@@ -37,8 +37,8 @@ function Icon({ id, open }) {
                 <path
                     d="M1.69629 1H19.6963"
                     stroke="#fff"
-                    stroke-width="2"
-                    stroke-linecap="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
                 />
             </svg>
         </div>

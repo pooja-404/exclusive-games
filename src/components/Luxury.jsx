@@ -1,12 +1,9 @@
 import React from 'react'
-import double from '../assets/images/double.png'
-import gplay from '../assets/images/gplay.png'
-import card1 from '../assets/images/heartcard.png'
-import card2 from '../assets/images/heartcard2.png'
-import dise from '../assets/images/dise.png'
-
-
-
+import double from '../assets/images/double.webp'
+import gplay from '../assets/images/gplay.webp'
+import card1 from '../assets/images/heartcard.webp'
+import card2 from '../assets/images/heartcard2.webp'
+import dise from '../assets/images/dise.webp'
 
 function Luxury() {
     return (

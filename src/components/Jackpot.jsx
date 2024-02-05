@@ -1,6 +1,6 @@
 import React from 'react'
 import jackpot from '../assets/images/jackpot.webp'
-import double from '../assets/images/double.png'
+import double from '../assets/images/double.webp'
 import vevoellipse2 from '../assets/images/vevoellipe2.webp'
 
 function Jackpot() {

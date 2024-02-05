@@ -21,9 +21,9 @@ const Preloder = () => {
                 <section
                     style={{ zIndex: "999999999" }}
                     className="bg-[#00141b] top-0 start-0 fixed h-full w-full flex flex-col justify-center items-center">
-                    <div class="bg-[#00141b] ">
-                        <div class="border border-gray-200 p-2 rounded-md shadow-lg shadow-green-300 animate-bounce">
-                            <div class="flex items-end gap-1">
+                    <div className="bg-[#00141b] ">
+                        <div className="border border-gray-200 p-2 rounded-md shadow-lg shadow-green-300 animate-bounce">
+                            <div className="flex items-end gap-1">
                                 <span className="sm:text-6xl text-4xl  text-white font-semibold font-Inter">E</span>
                                 <img src={preloder2} alt="cpanel" className="duration-500 w-[10%] h-[15%] animate-bounce " />
                                 <span className="sm:text-6xl text-4xl font-semibold text-white font-Inter">clusive</span>

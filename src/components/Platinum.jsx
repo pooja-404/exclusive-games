@@ -1,6 +1,6 @@
 import React from 'react'
 import platinum from '../assets/images/platinum.png'
-import double from '../assets/images/double.png'
+import double from '../assets/images/double.webp'
 import pellipe from '../assets/images/pellipe.webp'
 import pellipe2 from '../assets/images/pellipe2.webp'
 import platinumellipse from '../assets/images/7ellipse.webp'

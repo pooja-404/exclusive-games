@@ -21,8 +21,7 @@ import Preloder from './components/Preloder';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
-
-
+import mm from './assets/images/navbg.webp'
 
 function App() {
   useEffect(() => {
@@ -36,8 +35,8 @@ function App() {
   return (
     <div className="bg-[#00141b] overflow-x-clip">
       <Preloder />
-      <div className='bg-[url(./assets/images/headerbg.png)] bg-cover bg-center bg-no-repeat w-full h-full md:min-h-screen  min-h-[80%]  overflow-x-clip '>
-        <div className='bg-[url(./assets/images/navbg.png)] bg-cover bg-center bg-no-repeat '>
+      <div className='bg-[url(./assets/images/headerbg.webp)] bg-cover bg-center bg-no-repeat w-full h-full md:min-h-screen flex flex-col  min-h-[80%]  overflow-x-clip '>
+        <div className='bg-[url(./assets/images/navbg.webp)] bg-size bg-center bg-no-repeat '>
           <Nevsec />
         </div>
         <Headersec />
@@ -45,12 +44,12 @@ function App() {
       </div>
       <Mission />
       <Marca />
-      <div className='lg:bg-[url(./assets/images/secbg.png)] lg:bg-size lg:bg-center lg:bg-no-repeat w-full h-full'>
+      <div className='lg:bg-[url(./assets/images/secbg.webp)] lg:bg-size lg:bg-center lg:bg-no-repeat w-full h-full'>
         <Jackpot />
         <Lanza />
         <Jouges />
       </div>
-      <div className='lg:!bg-[url(./assets/images/porbg.png)] lg:bg-center lg:bg-no-repeat lg:w-full lg:h-full lg:min-h-screen lg:!bg-size'>
+      <div className='lg:!bg-[url(./assets/images/porbg.webp)] lg:bg-center lg:bg-no-repeat lg:w-full lg:h-full lg:min-h-screen lg:!bg-size'>
         <Por />
       </div>
       <Triple />

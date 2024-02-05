@@ -1,7 +1,7 @@
 import React from 'react'
-import con1 from '../assets/images/con1.png';
-import con2 from '../assets/images/con2.png';
-import con3 from '../assets/images/con3.png';
+import con1 from '../assets/images/con1.webp';
+import con2 from '../assets/images/con2.webp';
+import con3 from '../assets/images/con3.webp';
 
 const cards = [{
     bg: con1,

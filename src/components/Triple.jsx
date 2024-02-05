@@ -14,42 +14,26 @@ const Triple = () => {
                 <div className='max-w-[1140px] px-3 mx-auto py-12'>
                     <div className='flex flex-wrap flex-row -mx-3 justify-center'>
                         <div className='lg:w-1/2 w-full px-3' data-aos="fade-right">
-                            <img src={imgg} alt="777" className='rounded-[16px] mt-2 w-full lg:w-[96%]' />
+                            <img src={imgg} alt="777" className='rounded-[16px] mt-2 w-full  h-full lg:w-[96%]' />
                         </div>
-                        <div className='lg:w-1/2 w-full px-3 max-lg:flex justify-center items-center flex-col pt-9 lg:pt-0  '>
+                        <div className='lg:w-1/2 w-full  px-3 max-lg:flex justify-center items-center flex-col pt-9 lg:pt-0  '>
                             <h2 className='lg:text-5xl md:text-[40px] text-[38px] font-normal font-Anton text-white pb-5 max-lg:text-center' data-aos="fade-left">Más razones para elegirnos</h2>
-                            <div className='lg:max-w-[374px]  h-[116px] rounded-[16px] border-green-200  mt-6 border-[0.75px] border-solid bg-[#051D23]  p-[19px_16px] min-[376px]:p-[24px_56px]  gap-[37px]'data-aos="fade-down">
-                                <div className='flex items-center gap-10 max-lg:px-4'>
-                                    <div className='w-[68px] h-[68px] rounded-[73px] bg-[#7AF57A14] flex justify-center items-center'>
-                                        <img src={bulb} alt="bulb" />
-                                    </div>
-                                    <div>
-                                        <h3 className='text-white font-Anton text-[32px] font-normal'>200</h3>
-                                        <p className='font-Inter font-medium text-[16px] text-white text-nowrap '>Páginas creadas</p>
-                                    </div>
+                            <div className=' mt-9 bg-people p-[1px] pl-[1px] duration-500 hover:shadow-[0px5px_10px#7AF57A] w-full rounded-[16px] max-w-[374px]' data-aos="fade-left">
+                                <div className=" pl-[15px] sm:pl-[56px] pr-[20px] bg-[#051D23] py-6 flex items-center gap-[37px] rounded-[16px]">
+                                    <img className='w-[68px] h-[68px]' src={bulb} alt="bulb" />
+                                    <p className='max-w-[227px] font-Inter font-medium leading-[25px] text-[14px] sm:text-[16px] text-white'><span className=' font-Anton text-[25px] sm:text-[32px] leading-[41px] font-normal'>200</span> <br /> Páginas creadas</p>
                                 </div>
                             </div>
-                            <div className='lg:max-w-[374px]  h-[116px] rounded-[16px] border-green-200 mt-6  border-[0.75px] border-solid bg-[#051D23]  p-[19px_16px] min-[376px]:p-[24px_56px]  gap-[37px]'data-aos="fade-left">
-                                <div className='flex items-center gap-10'>
-                                    <div className='w-[68px] h-[68px] p-3 rounded-[73px] bg-[#7AF57A14] flex justify-center items-center'>
-                                        <img src={starts} alt="bulb" />
-                                    </div>
-                                    <div>
-                                        <h3 className='text-white font-Anton text-[32px] font-normal'>98%</h3>
-                                        <p className='font-Inter font-medium text-[16px] text-white text-nowrap'>Clientes Satisfechas</p>
-                                    </div>
+                            <div className=' mt-6 bg-people p-[1px] pl-[1px] duration-500 hover:shadow-[0px5px_10px#7AF57A] w-full rounded-[16px] max-w-[374px]' data-aos="fade-left">
+                                <div className=" pl-[15px] sm:pl-[56px] pr-[20px] bg-[#051D23] py-6 flex items-center gap-[37px] rounded-[16px]">
+                                    <img className='w-[68px] h-[68px]' src={starts} alt="bulb" />
+                                    <p className='max-w-[227px] font-Inter font-medium leading-[25px] text-[14px] sm:text-[16px] text-white'><span className=' font-Anton text-[25px] sm:text-[32px] leading-[41px] font-normal'>200</span> <br /> Páginas creadas</p>
                                 </div>
                             </div>
-                            <div className='lg:max-w-[374px]  h-[116px] rounded-[16px] border-green-200  mt-6 border-[0.75px] border-solid bg-[#051D23]  p-[19px_16px] min-[376px]:p-[24px_56px]  gap-[37px]'data-aos="fade-up">
-                                <div className='flex items-center gap-10 max-lg:px-1'>
-                                    <div className='w-[68px] h-[68px]  rounded-[73px] bg-[#7AF57A14] flex justify-center items-center'>
-                                        <img src={ruppee} alt="bulb" />
-                                    </div>
-                                    <div>
-                                        <h3 className='text-white font-Anton text-[32px] font-normal'>200</h3>
-                                        <p className='font-Inter font-medium text-[16px] text-white text-nowrap'>Divisas Disponibles</p>
-                                    </div>
-
+                            <div className=' mt-6 bg-people p-[1px] pl-[1px] duration-500 hover:shadow-[0px5px_10px#7AF57A] w-full rounded-[16px] max-w-[374px]' data-aos="fade-left">
+                                <div className=" pl-[15px] sm:pl-[56px] pr-[20px] bg-[#051D23] py-6 flex items-center gap-[37px] rounded-[16px]">
+                                    <img className='w-[68px] h-[68px]' src={ruppee} alt="bulb" />
+                                    <p className='max-w-[227px] font-Inter font-medium leading-[25px] text-[14px] sm:text-[16px] text-white'><span className=' font-Anton text-[25px] sm:text-[32px] leading-[41px] font-normal'>200</span> <br /> Páginas creadas</p>
                                 </div>
                             </div>
                         </div>
