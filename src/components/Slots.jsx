@@ -1,10 +1,10 @@
 import React from 'react'
-import slots1 from '../assets/images/slots1.png';
-import slots2 from '../assets/images/slots2.png';
-import slots3 from '../assets/images/slots3.png';
-import slots4 from '../assets/images/slots4.png';
-import slots5 from '../assets/images/slots5.png';
-import slots6 from '../assets/images/slots6.png';
+import slots1 from '../assets/images/slots1.webp';
+import slots2 from '../assets/images/slots2.webp';
+import slots3 from '../assets/images/slots3.webp';
+import slots4 from '../assets/images/slots4.webp';
+import slots5 from '../assets/images/slots5.webp';
+import slots6 from '../assets/images/slots6.webp';
 
 
 
@@ -51,7 +51,7 @@ const Slots = () => {
             <h2 className=" font-Anton lg:text-5xl md:text-[40px] text-[38px] text-center leading-[57.6px] text-[#00141B] font-normal mb-4"data-aos="flip-up">
                 Slots
             </h2>
-            <p className=" font-Inter text-center text-base font-medium leading-[25.6px] text-[#00141B] max-w-[904px] mx-auto mb-[60px]"data-aos="flip-up">
+            <p className=" font-Inter text-center text-base font-medium leading-[25.6px] text-[#00141B] max-w-[904px] mx-auto mb-12 md:mb-[60px]"data-aos="flip-up">
                 En Exclusive Games, ofrecemos una selección de más de 600 juegos de los
                 principales desarrolladores, como Aristocrat, Amatic, EGT, Novomatic,
                 IGT, Playtech, Igrosoft y Tom Horn. Nuestro equipo trabaja

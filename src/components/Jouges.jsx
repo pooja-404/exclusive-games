@@ -33,7 +33,7 @@ const juegos = () => {
         <div className="lg:pt-24 lg:pb-20 md:pb-10 pb-7 relative z-10 ">
             <div className='max-w-[1140px] mx-auto px-3 pt-7'>
                 <h2 className='font-Anton font-normal lg:text-5xl md:text-[40px] text-[38px]  text-[#FFFF] leading-[57px] text-center'>Juegos en vivo</h2>
-                <div className="flex flex-wrap flex-row -mx-3 mt-14 justify-center">
+                <div className="flex flex-wrap flex-row -mx-3 lg:mt-14 mt-9 justify-center">
                     {card}
                 </div>
             </div>

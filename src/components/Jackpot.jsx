@@ -38,7 +38,7 @@ function Jackpot() {
           </div>
         </div>
       </div>
-      <img src={vevoellipse2} alt="poker" className='absolute left-0 bottom-[5%] -z-10'/>
+      <img src={vevoellipse2} alt="poker" className='absolute left-0 bottom-[-22%] -z-10'/>
     </div>
   )
 }

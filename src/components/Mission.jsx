@@ -8,8 +8,8 @@ import missionellipse2 from '../assets/images/missisinellipse2.webp'
 const Mission = () => {
     return (
         <div className='relative z-10'>
-            <div className='relative mt-16 max-sm:mt-20 overflow-x-clip'>
-                <div className='max-w-[1140px] mx-auto px-3 pb-16 '>
+            <div className='relative md:mt-16 mt-9  overflow-x-clip'>
+                <div className='max-w-[1140px] mx-auto px-3 md:pb-16 '>
                     <div className='flex flex-wrap flex-row -mx-3'>
                         <div className='md:w-1/2 w-full px-3 flex items-center md:items-start justify-center md:justify-start flex-col'  data-aos="fade-right">
                             <img src={poker} alt="poker" className='rounded-[16px] w-[93%]' />
@@ -18,11 +18,11 @@ const Mission = () => {
                             <p className='font-Inter text-[16px] font-bold text-[#7AF57A] pt-5 cursor-pointer'>Aprende más {"-->"}</p>
                         </div>
                         <div className='md:w-1/2 w-full px-3 flex items-center md:items-start justify-center md:justify-start flex-col' data-aos="fade-left">
-                            <img className='mt-16 block md:hidden rounded-[16px] w-[93%] ' src={aviator} alt="aviator"  />
+                            <img className='md:mt-16 mt-9 block md:hidden rounded-[16px] w-[93%] ' src={aviator} alt="aviator"  />
                             <h2 className='text-white lg:text-5xl md:text-[40px] text-[38px] font-normal font-Anton pt-8 md:pt-0 '>Nuestra Misión</h2>
                             <p className='font-Inter font-medium text-[16px] text-[#ccd0d1] max-w-[444px] pt-2 text-center md:text-start'>Nuestra misión es simple pero poderosa: proporcionarte la más amplia gama de soluciones de entretenimiento de alta calidad y rentabilidad. Estamos comprometidos a elevar tus expectativas y brindarte experiencias inigualables.</p>
                             <p className='font-Inter text-[16px] font-bold text-[#7AF57A] pt-5 cursor-pointer'>Aprende más {"-->"}</p>
-                            <img className='mt-16 hidden md:block rounded-[16px] w-[93%] ' src={aviator} alt="aviator"  />
+                            <img className='md:mt-16 mt-9 hidden md:block rounded-[16px] w-[93%] ' src={aviator} alt="aviator"  />
                         </div>
                     </div>
                 </div>

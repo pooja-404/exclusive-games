@@ -1,5 +1,5 @@
 import React from 'react'
-import plate from '../assets/images/plataforma.webp'
+
 
 function Plataforma() {
     return (
