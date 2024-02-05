@@ -10,7 +10,7 @@ const Silver = () => {
                 <div className='w-full lg:mt-14 mt-7 bg-[#051D23] border-[0.5px] border-solid border-[#849294] rounded-[16px] p-[57px_40px_32px_46px]'>
                     <div className='flex flex-wrap flex-row -mx-3'>
                         <div className='lg:w-7/12 w-full px-3 pt-5 relative z-10' data-aos="fade-left">
-                            <img src={cards} alt="cards" className='w-full' />
+                            <img src={cards} alt="cards" className='max-lg:w-full w-[95%]' />
                             <img src={sellipse} alt="poker" className='absolute right-[40%] bottom-[41%] -z-10' />
                         </div>
                         <div className='lg:w-5/12 w-full px-3'>
