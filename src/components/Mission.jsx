@@ -3,6 +3,7 @@ import poker from '../assets/images/poker.webp'
 import aviator from '../assets/images/aviater.webp'
 import missionellipse from '../assets/images/missinellipse.webp'
 import missionellipse2 from '../assets/images/missisinellipse2.webp'
+import jellipse from '../assets/images/sellipse.webp'
 
 
 const Mission = () => {
@@ -29,6 +30,7 @@ const Mission = () => {
             </div>
             <img src={missionellipse} alt="poker" className='absolute right-0 top-[15%] -z-10' />
             <img src={missionellipse2} alt="poker" className='absolute left-0 bottom-0 -z-10' />
+            <img src={jellipse} alt="poker" className='absolute right-[34%] bottom-[27%] -z-10' />
         </div>
     )
 }

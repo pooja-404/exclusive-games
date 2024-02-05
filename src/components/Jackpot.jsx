@@ -2,6 +2,7 @@ import React from 'react'
 import jackpot from '../assets/images/jackpot.webp'
 import double from '../assets/images/double.webp'
 import vevoellipse2 from '../assets/images/vevoellipe2.webp'
+import jellipse from '../assets/images/jellipse.webp'
 
 function Jackpot() {
   return (
@@ -38,7 +39,8 @@ function Jackpot() {
           </div>
         </div>
       </div>
-      <img src={vevoellipse2} alt="poker" className='absolute left-0 bottom-[-22%] -z-10'/>
+      <img src={vevoellipse2} alt="poker" className='absolute left-0 bottom-[-22%] -z-10' />
+      <img src={jellipse} alt="poker" className='absolute left-[41%] bottom-[-22%] -z-10' />
     </div>
   )
 }
