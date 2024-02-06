@@ -46,7 +46,7 @@ const Slots = () => {
         </div>
     </div>))
     return (
-        <div className="lg:mt-[140px] md:py-20 py-9">
+        <div className="lg:mt-[100px] md:py-20 py-9 relative z-20">
             <h2 className=" font-Anton lg:text-5xl md:text-[40px] text-[38px] text-center leading-[57.6px] text-[#00141B] font-normal mb-4"data-aos="flip-up">
                 Slots
             </h2>
