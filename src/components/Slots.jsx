@@ -63,7 +63,7 @@ const Slots = () => {
                 {card}
             </div>
             <div className='flex justify-center'>
-                <button className='hover:shadow-[0_0_14px_9px_rgba(014,218,09,0.50)] hover:text-white duration-500 transition-all  text-[#00141B] bg-gradient font-Inter font-bold text-base leading-[25px] p-[13px_46px_13px_46px] rounded-[41px] mt-5 relative after:absolute after:content-[url(./assets/images/gline.webp)] after:top-[31px] after:left-[-6px] '>Mostrar más</button>
+                <button className='hover:shadow-[0_0_14px_9px_rgba(014,218,09,0.50)] hover:text-white duration-500 transition-all  text-[#00141B] bg-gradient font-Inter font-bold text-base leading-[25px] p-[13px_46px_13px_46px] rounded-[41px] mt-4 relative after:absolute after:content-[url(./assets/images/gline.webp)] after:top-[31px] after:left-[-6px] '>Mostrar más</button>
             </div>
         </div>
     );
