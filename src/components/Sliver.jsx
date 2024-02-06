@@ -67,7 +67,7 @@ const Silver = () => {
                                 <p className='text-[16px] font-medium text-[#CDD2D3] font-Inter max-lg:text-center' data-aos="fade-left">Tiempo de creación 2 a 3 semanas</p>
                             </div>
                             <div className='flex max-lg:justify-center' data-aos="fade-right">
-                                <button className='hover:shadow-[0_0_14px_9px_rgba(014,218,09,0.50)] group-hover:duration-500  hover:bg-gradient hover:border-[1px]  hover:border-[transparent] text-white font-Inter font-bold text-base leading-[25px] p-[13px_46px_13px_46px] border-[1px] border-solid border-white rounded-[41px] mt-12 relative after:absolute after:content-[url(./assets/images/wline.webp)] duration-[0.5s] after:top-[31px] after:left-[-6px]'>Comprar ahora</button>
+                                <button className='hover:shadow-[0_0_14px_9px_rgba(014,218,09,0.50)] group-hover:duration-500  hover:bg-gradient hover:border-[1px]  hover:border-[transparent] text-white font-Inter font-bold text-base leading-[25px] p-[13px_46px_13px_46px] border-[1px] border-solid border-white rounded-[41px] text-nowrap mt-12 relative after:absolute after:content-[url(./assets/images/wline.webp)] duration-[0.5s] after:top-[31px] after:left-[-6px]'>Comprar ahora</button>
                             </div>
                         </div>
                     </div>
