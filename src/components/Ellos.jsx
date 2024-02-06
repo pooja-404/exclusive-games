@@ -23,12 +23,11 @@ const Ellos = () => {
             data-aos-easing="ease-in-sine" style={{ backgroundImage: `url(${cards.bg})` }}>
             <div className="absolute w-full  bg-[#000000B2] hover:shadow-[7px_9px_15px_0px_#00000033] lg:max-w-[364px] h-[265px] flex justify-center top-[-100%] group-hover:top-0 left-0 items-center duration-500">
                 <button className="text-white opacity-100 relative z-[2] border border-white rounded-full py-[13px] px-[46px] border-solid after:absolute after:left-[-3%]  after:bottom-[-30%] font-Inter font-bold text-base leading-[25.6px] after:content-[url(./assets/images/wline.webp)] hover:scale-75 hover:shadow-[0_0_14px_9px_rgba(014,218,09,0.50)] group-hover:duration-500  hover:bg-gradient hover:border-[1px]  hover:border-[transparent]">Rcasinovip</button>
-
             </div>
         </div>
     </div>))
     return (
-        <div className="max-w-[1140px] mx-auto px-3 lg:mb-32 lg:mt-36 md:my-25 my-16 relative z-20">
+        <div className="max-w-[1140px] mx-auto px-3 lg:mb-32 lg:mt-36 md:my-25 my-10 relative z-20">
             <h2 className=" font-Anton lg:text-5xl md:text-[40px] sm:text-[38px] text-[28px] text-center md:leading-[57.6px]  font-normal text-white  mb-4 ">
                 Ellos eligieron apostar con nosotros
             </h2>

@@ -47,11 +47,11 @@ const Slots = () => {
         </div>
     </div>))
     return (
-        <div className="lg:mt-[150px] md:py-20 py-12">
+        <div className="lg:mt-[150px] md:py-20 py-9">
             <h2 className=" font-Anton lg:text-5xl md:text-[40px] text-[38px] text-center leading-[57.6px] text-[#00141B] font-normal mb-4"data-aos="flip-up">
                 Slots
             </h2>
-            <p className=" font-Inter text-center text-base font-medium leading-[25.6px] text-[#00141B] max-w-[904px] mx-auto mb-12 md:mb-[60px]"data-aos="flip-up">
+            <p className=" font-Inter text-center text-base font-medium leading-[25.6px] text-[#00141B] max-w-[904px] mx-auto mb-9 md:mb-[60px]"data-aos="flip-up">
                 En Exclusive Games, ofrecemos una selección de más de 600 juegos de los
                 principales desarrolladores, como Aristocrat, Amatic, EGT, Novomatic,
                 IGT, Playtech, Igrosoft y Tom Horn. Nuestro equipo trabaja
@@ -65,7 +65,6 @@ const Slots = () => {
             <div className='flex justify-center'>
                 <button className='hover:shadow-[0_0_14px_9px_rgba(014,218,09,0.50)] hover:text-white duration-500 transition-all  text-[#00141B] bg-gradient font-Inter font-bold text-base leading-[25px] p-[13px_46px_13px_46px] rounded-[41px] mt-5 relative after:absolute after:content-[url(./assets/images/gline.webp)] after:top-[31px] after:left-[-6px] '>Mostrar más</button>
             </div>
-
         </div>
     );
 };
