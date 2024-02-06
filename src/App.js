@@ -35,7 +35,7 @@ function App() {
   return (
     <div className="bg-[#00141b] overflow-x-clip">
       <Preloder />
-      <div className='bg-[url(./assets/images/headerbg.webp)] bg-cover bg-center bg-no-repeat w-full h-full lg:min-h-screen  md:min-h-[80vh] min-h-[75vh] flex flex-col overflow-x-clip  '>
+      <div className='bg-[url(./assets/images/headerbg.webp)] bg-cover bg-center bg-no-repeat w-full h-full min-h-screen flex flex-col overflow-x-clip  '>
         <div className='bg-[url(./assets/images/navbg.webp)] bg-size bg-center bg-no-repeat '>
           <Nevsec />
         </div>
