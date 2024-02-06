@@ -12,7 +12,7 @@ const Nevsec = () => {
         <>
             <div className="max-w-[1140px] mx-auto px-3  py-5 ">
                 <div className="flex items-center justify-between">
-                    <img src={logo} alt="logo" />
+                    <img src={logo} alt="logo" className=' cursor-pointer' />
                     <ul className={`flex items-center gap-7 mobileView ${show ? "right-[-100%]" : "right-0"}`} >
                         <li>
                             <a href="#home" className="font-Inter font-medium font-base text-[#d2d8da]  hover:text-[#ffffff] transition-all duration-500" onClick={nav}>
