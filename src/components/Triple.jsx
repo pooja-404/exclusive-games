@@ -10,7 +10,7 @@ import norellipse2 from '../assets/images/nosellipse2.webp'
 const Triple = () => {
     return (
         <>
-            <div className='bg-[#00141b] pt-9 relative z-10'>
+            <div className='bg-[#00141b] pt-9 relative z-10' id='triple'>
                 <div className='max-w-[1140px] px-3 mx-auto max-md:pb-10 lg:py-12'>
                     <div className='flex flex-wrap flex-row -mx-3 justify-center'>
                         <div className='lg:w-1/2 w-full px-3' data-aos="fade-right">

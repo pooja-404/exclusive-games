@@ -8,7 +8,7 @@ import dise from '../assets/images/dise.webp'
 function Luxury() {
     return (
         <div>
-            <div className='max-w-[1140px] mx-auto px-3 md:pb-16 max-lg:pb-7 max-md:py-7 '>
+            <div className='max-w-[1140px] mx-auto px-3 md:pb-16 max-lg:pb-7 max-md:py-7' id='luxury"'>
                 <div className="w-full px-5 border-[0.5px] bg-[url(./assets/images/luxurybg.png)] bg-100 bg-no-repeat h-full border-[#849294] bg-[#051D23] rounded-[16px] py-[45px] flex items-center flex-col relative">
                     <div className='max-w-[419px] z-10'>
                         <h4 className='text-white text-[32px] font-Anton font-normal leading-[41px] text-center'data-aos="zoom-out-down">Luxury</h4>

@@ -4,7 +4,7 @@ import sellipse from '../assets/images/sellipse.webp'
 const Silver = () => {
     return (
         <>
-            <div className='max-w-[1140px] px-3 mx-auto lg:pt-24 md:pb-16 md:pt-10 '>
+            <div className='max-w-[1140px] px-3 mx-auto lg:pt-24 md:pb-16 md:pt-10' id='silver'>
                 <h2 className='lg:text-5xl md:text-[40px] text-[38px] font-normal font-Anton text-white text-center'>Nuestras ofertas</h2>
                 <p className='font-Inter font-medium text-[16px] text-white text-center pt-5'>Te ofrecemos las mejores experiencias de juegos para tus clientes.</p>
                 <div className='w-full lg:mt-14 mt-7 bg-[#051D23] border-[0.5px] border-solid border-[#849294] rounded-[16px] p-[57px_40px_32px_46px]'>

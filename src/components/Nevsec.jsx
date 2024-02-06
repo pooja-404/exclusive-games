@@ -15,27 +15,27 @@ const Nevsec = () => {
                     <img src={logo} alt="logo" />
                     <ul className={`flex items-center gap-7 mobileView ${show ? "right-[-100%]" : "right-0"}`} >
                         <li>
-                            <a href="" className="font-Inter font-medium font-base text-[#d2d8da]  hover:text-[#ffffff] transition-all duration-500">
+                            <a href="#home" className="font-Inter font-medium font-base text-[#d2d8da]  hover:text-[#ffffff] transition-all duration-500" onClick={nav}>
                                 Hogar
                             </a>
                         </li>
                         <li>
-                            <a href="" className="font-Inter font-medium font-base text-[#d2d8da]  hover:text-[#ffffff] transition-all duration-500">
+                            <a href="#luxury" className="font-Inter font-medium font-base text-[#d2d8da]  hover:text-[#ffffff] transition-all duration-500" onClick={nav}>
                                 Misión
                             </a>
                         </li>
                         <li>
-                            <a href="" className="font-Inter font-medium font-base text-[#d2d8da]  hover:text-[#ffffff] transition-all duration-500">
+                            <a href="#triple" className="font-Inter font-medium font-base text-[#d2d8da]  hover:text-[#ffffff] transition-all duration-500" onClick={nav}>
                                 Tragamonedas
                             </a>
                         </li>
                         <li>
-                            <a href="" className="font-Inter font-medium font-base text-[#d2d8da]  hover:text-[#ffffff] transition-all duration-500">
+                            <a href="#mission" className="font-Inter font-medium font-base text-[#d2d8da]  hover:text-[#ffffff] transition-all duration-500" onClick={nav}>
                                 Por qué elegirnos
                             </a>
                         </li>
                         <li>
-                            <a href="" className="font-Inter font-medium font-base text-[#d2d8da]  hover:text-[#ffffff] transition-all duration-500">
+                            <a href="#silver" className="font-Inter font-medium font-base text-[#d2d8da]  hover:text-[#ffffff] transition-all duration-500" onClick={nav}>
                                 Ofertas
                             </a>
                         </li>

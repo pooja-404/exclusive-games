@@ -8,7 +8,7 @@ import jellipse from '../assets/images/sellipse.webp'
 
 const Mission = () => {
     return (
-        <div className='relative z-10'>
+        <div className='relative z-10' id='mission'>
             <div className='relative md:mt-16 mt-9  overflow-x-clip'>
                 <div className='max-w-[1140px] mx-auto px-3 md:pb-16 '>
                     <div className='flex flex-wrap flex-row -mx-3 '>
