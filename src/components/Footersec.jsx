@@ -133,7 +133,7 @@ const Footersec = () => {
                                             </svg>
 
                                         </span>
-                                        <a href="" className="text-[#cccccc] text-base font-Inter leading-[25px] hover:text-[#ffff] transition-all duration-500  ">juegosexclusivos@gmail.com</a>
+                                        <a href="https://exclusive-games-9ai8.vercel.app/" className="text-[#cccccc] text-base font-Inter leading-[25px] hover:text-[#ffff] transition-all duration-500  ">juegosexclusivos@gmail.com</a>
                                     </li>
                                     <li className="flex gap-2 items-center pb-3 sm:pb-4 relative z-20">
                                         <span className="cursor-pointer">
