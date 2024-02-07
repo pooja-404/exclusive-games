@@ -85,7 +85,7 @@ const Accordiansec = () => {
                         {" "}
                         ¿Cómo garantizan la seguridad de las operaciones en sus juegos?
                     </AccordionHeader>
-                    <AccordionBody className="font-Inter text-base md:text-[14px] font-medium leading-[160%] text-[#CCD0D1] max-w-[880px] pt-2 pb-0 ">
+                    <AccordionBody className="font-Inter text-sm md:text-[16px] font-medium leading-[160%] text-[#CCD0D1] max-w-[880px] pt-2 pb-0 ">
                         En Exclusive Games, ofrecemos experiencias únicas y personalizadas,
                         respaldadas por más de 15 años de dedicación al desarrollo de
                         multiplataformas para juegos de azar.
