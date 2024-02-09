@@ -21,7 +21,7 @@ import Preloder from './components/Preloder';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
-import mm from './assets/images/navbg.webp'
+
 
 function App() {
   useEffect(() => {
@@ -36,7 +36,7 @@ function App() {
     <div className="bg-[#00141b] overflow-x-clip">
       <Preloder />
       <div className='bg-[url(./assets/images/headerbg.webp)] bg-cover bg-center bg-no-repeat w-full h-full min-h-screen flex flex-col overflow-x-clip  '>
-        <div className='bg-[url(./assets/images/navbg.webp)] bg-size bg-center bg-no-repeat '>
+        <div className='lg:bg-[url(./assets/images/navbg.webp)] !bg-[#FFFFFF1A] bg-size bg-center bg-no-repeat '>
           <Nevsec />
         </div>
         <Headersec />

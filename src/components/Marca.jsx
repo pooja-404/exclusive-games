@@ -12,7 +12,7 @@ const Marca = () => {
         <div className="lg:bg-[url(./assets/images/whitebg1.png)] bg-size bg-center bg-no-repeat lg:py-[200px] sm:py-20 py-9 ">
             <div className='max-lg:bg-white '>
                 <div className="max-w-[1140px] px-3 mx-auto">
-                    <h2 className=" font-Anton text-[#00141B] lg:text-5xl md:text-[40px] text-[38px] text-center pt-10 md:mb-[60px]">
+                    <h2 className=" font-Anton text-[#00141B] lg:text-5xl md:text-[40px] text-[38px] text-center pt-10 md:mb-[60px] ">
                         Nuestros Atributos de Marca
                     </h2>
                     <div className="flex flex-wrap flex-row -mx-3 relative pt-8 justify-center">
