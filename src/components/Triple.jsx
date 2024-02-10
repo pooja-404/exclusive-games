@@ -14,7 +14,7 @@ const Triple = () => {
                 <div className='max-w-[1140px] px-3 mx-auto max-md:pb-10 lg:py-12'>
                     <div className='flex flex-wrap flex-row -mx-3 justify-center'>
                         <div className='lg:w-1/2 w-full px-3' data-aos="fade-right">
-                            <img src={imgg} alt="777" className='rounded-[16px] mt-2 w-full  h-full lg:w-[96%]' />
+                            <img src={imgg} alt="777" className='rounded-[16px] mt-2 w-full  h-full lg:w-[96%] object-cover' />
                         </div>
                         <div className='lg:w-1/2 w-full  px-3 max-lg:flex justify-center items-center flex-col pt-9 lg:pt-0  '>
                             <h2 className='lg:text-5xl md:text-[40px] text-[38px] font-normal font-Anton text-white md:pb-5  max-lg:text-center' data-aos="fade-left">Más razones para elegirnos</h2>
